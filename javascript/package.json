@@ -1,0 +1,24 @@
+{
+  "name": "dataoil-sample-javascript",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "The Data Oil JavaScript and TypeScript client sample: a read-only walk-through of the public sandbox by default; in your own tenant, connect, create a database, write, query, search by keyword and by meaning, and clean up.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/sample.js",
+    "dry-run": "node dist/sample.js --dry-run",
+    "test": "npm run build && node --test"
+  },
+  "dependencies": {
+    "@dataoil/client": "0.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.9.3"
+  }
+}

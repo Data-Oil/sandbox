@@ -1,0 +1,131 @@
+Data Oil Software Licence
+Version 1.0, October 2026
+
+Copyright (c) 2026 Max Dragon Technology Research & Development (MaxDragon Technology).
+All rights reserved.
+
+This licence governs the software distributed with it: libraries, packages, command-line tools,
+servers (including the Data Oil MCP server), sample code and documentation (together, the
+"Software"). By installing, copying or using any part of the Software you accept this licence. If
+you do not accept it, do not install or use the Software.
+
+1. Definitions
+
+   "Licensor" means Max Dragon Technology Research & Development, a company incorporated in the
+   Kingdom of Thailand and trading as MaxDragon Technology, the owner of Data Oil.
+   "Platform" means the Data Oil service and everything that delivers it: its engines, gateways,
+   APIs, endpoints, user interfaces, sandbox and demonstration systems, networks and the data held
+   in them.
+   "Credential" means an account, key, token, certificate or password issued by the Licensor.
+   "You" means the person or organisation that uses the Software.
+
+2. Licence grant
+
+   Subject to your compliance with this licence, the Licensor grants you a personal, non-exclusive,
+   non-transferable, non-sublicensable, revocable licence to install and use the Software, in the
+   form the Licensor publishes it, solely to access the Platform with a Credential issued to you,
+   for a Legitimate Use (clause 3), and in accordance with the agreement under which that Credential
+   was issued.
+
+   You may reference the Software as a dependency of your own application, and the package manager
+   of that application may fetch it from the Licensor's published source. That does not permit you
+   to redistribute the Software yourself.
+
+3. Legitimate use only
+
+   The Software is licensed only for lawful, legitimate business, development, evaluation or
+   educational purposes that are consistent with the Licensor's published terms and rate card
+   ("Legitimate Use"). Any other use is unlicensed. The Licensor may decide, acting reasonably,
+   whether a use is a Legitimate Use.
+
+4. Restrictions
+
+   Except as this licence expressly permits, or as applicable law permits despite this restriction,
+   you must not, and must not allow anyone else to:
+
+   (a) copy the Software, except for the copies reasonably needed for the use licensed in clause 2
+       and one backup copy;
+   (b) modify, adapt, translate or create derivative works of the Software;
+   (c) reverse engineer, decompile, disassemble, decrypt or otherwise try to derive the source
+       code, algorithms, protocols, data formats or internal design of the Software or the Platform;
+   (d) sell, rent, lease, lend, sublicense, publish, distribute or otherwise make the Software
+       available to anyone else, or offer it as a hosted or managed service;
+   (e) remove, alter or obscure any copyright, trademark, licence or other notice;
+   (f) use the Software or knowledge gained from it to build, train or improve a product or service
+       that competes with the Platform; or
+   (g) use the Software in breach of any law, including export-control and sanctions laws.
+
+5. Protection of the Platform
+
+   You must not, whether with the Software or by any other means:
+
+   (a) access, or attempt to access, the Platform, any account, tenant, database or data without
+       authorisation, or use a Credential that was not issued to you;
+   (b) hack, probe, scan, map or test the vulnerability of the Platform, or breach or circumvent
+       its authentication, authorisation, encryption, rate limits, quotas, budgets, read-only
+       restrictions, metering, billing or any other security or usage control;
+   (c) carry out, attempt or assist any malicious attack on the Platform or on the Licensor,
+       including denial-of-service or flooding attacks, deliberate resource exhaustion, injection
+       attacks, or the introduction of malware or other harmful code;
+   (d) interfere with or disrupt the Platform, its other users or the networks that carry it;
+   (e) scrape, harvest or bulk-extract data beyond what your Credential and agreement permit; or
+   (f) use the Platform to store, process or transmit unlawful, infringing or fraudulent content.
+
+   Security testing of the Platform is permitted only with the Licensor's prior written
+   authorisation, and only within its scope. If you find a vulnerability, report it promptly and
+   privately to info@dataoil.tech, and do not use, disclose or exploit it.
+
+6. Sample code
+
+   Where the Software includes sample code that is marked as such, you may copy and modify that
+   sample code solely to build your own applications that access the Platform for a Legitimate Use.
+   Clauses 3, 5, 7, 8, 9 and 10 continue to apply to the sample code and to anything built from it.
+
+7. Ownership
+
+   The Software and the Platform are licensed, not sold. The Licensor and its licensors keep all
+   rights, title and interest in them, including all intellectual property rights. "Data Oil" and
+   the Data Oil marks are trademarks of the Licensor and are not licensed to you. Any feedback you
+   give may be used by the Licensor without obligation to you.
+
+   This licence grants no right to use the Platform. Access to the Platform needs a Credential and
+   is governed by the agreement under which that Credential is issued; the Platform meters and
+   charges for its use according to that agreement and the published rate card.
+
+8. Third-party components
+
+   The Software may use third-party components, which are licensed under their own terms as
+   listed in the NOTICE file. Nothing in this licence restricts your rights under those terms.
+
+9. Termination
+
+   This licence ends automatically, without notice, if you breach any of its terms. The Licensor
+   may also end it, or suspend or revoke any Credential, at any time if it reasonably believes the
+   Software or the Platform is being misused. When the licence ends you must stop using the
+   Software and destroy every copy you hold. Clauses 4, 5, 7, 9, 10 and 11 survive termination.
+
+   A breach of clause 4 or 5 may cause the Licensor irreparable harm. The Licensor may seek
+   injunctive or other equitable relief in addition to any other remedy, may recover its costs of
+   investigating and responding to the breach, and may report unlawful activity to the relevant
+   authorities.
+
+10. Disclaimer and limitation of liability
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+   THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. TO THE
+   FULLEST EXTENT PERMITTED BY LAW, THE LICENSOR SHALL NOT BE LIABLE FOR ANY CLAIM, DAMAGES OR
+   OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+   WITH THE SOFTWARE OR ITS USE. Nothing in this licence excludes a liability that cannot be
+   excluded by law, including rights you have as a consumer.
+
+11. General
+
+   This licence is governed by the laws of the Kingdom of Thailand, and the courts of Thailand have
+   exclusive jurisdiction over any dispute arising from it. Misuse of the Platform may also be an
+   offence under the Computer Crime Act B.E. 2550 (2007) of Thailand and the laws of other
+   countries. If a
+   provision is held unenforceable, it is limited to the minimum extent needed and the rest of the
+   licence stays in force. The Licensor may publish a new version of this licence, which applies to
+   versions of the Software released with it. Permissions not expressly granted are reserved.
+
+Contact: info@dataoil.tech

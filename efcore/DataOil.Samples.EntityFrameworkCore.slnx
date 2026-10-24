@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/DataOil.Samples.EntityFrameworkCore/DataOil.Samples.EntityFrameworkCore.csproj" />
+  <Project Path="tests/DataOil.Samples.EntityFrameworkCore.Tests/DataOil.Samples.EntityFrameworkCore.Tests.csproj" />
+</Solution>

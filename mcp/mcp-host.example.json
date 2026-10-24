@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "dataoil": {
+      "command": "dataoil-mcp",
+      "env": {
+        "DATAOIL_URL": "https://your-tenant.dataoil.tech",
+        "DATAOIL_DATABASE": "your_database",
+        "DATAOIL_TOKEN": "dot_your_key_here"
+      }
+    }
+  }
+}

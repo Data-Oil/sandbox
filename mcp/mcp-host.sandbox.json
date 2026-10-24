@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "dataoil-sandbox": {
+      "command": "node",
+      "args": ["/path/to/samples/mcp/node_modules/@dataoil/mcp/dist/cli.js"],
+      "env": {
+        "DATAOIL_URL": "https://sandbox.dataoil.tech",
+        "DATAOIL_DATABASE": "Sandbox",
+        "DATAOIL_USERNAME": "suser",
+        "DATAOIL_PASSWORD": "hFn3dh#2%hn8A",
+        "DATAOIL_JOB_ID": "sandbox-mcp"
+      }
+    }
+  }
+}

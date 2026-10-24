@@ -1,0 +1,26 @@
+{
+  "name": "dataoil-sample-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "The Data Oil MCP server sample: an MCP client that starts the server the way an assistant host does, and drives its tools - read only against the public sandbox by default; in your own tenant, to define, write, query, search and clean up.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/sample.js",
+    "dry-run": "node dist/sample.js --dry-run",
+    "test": "npm run build && node --test"
+  },
+  "dependencies": {
+    "@dataoil/client": "0.1.5",
+    "@dataoil/mcp": "0.1.5",
+    "@modelcontextprotocol/sdk": "^1.32.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.0",
+    "typescript": "^5.9.3"
+  }
+}

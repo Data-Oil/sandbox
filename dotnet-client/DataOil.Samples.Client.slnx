@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/DataOil.Samples.Client/DataOil.Samples.Client.csproj" />
+  <Project Path="tests/DataOil.Samples.Client.Tests/DataOil.Samples.Client.Tests.csproj" />
+</Solution>

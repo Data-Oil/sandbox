@@ -1,0 +1,8 @@
+# The Data Oil Python client, from PyPI (https://pypi.org/project/dataoil/). Standard library only:
+# it brings nothing else with it. Install from this folder:
+#   python -m pip install -r requirements.txt
+dataoil==0.1.5
+# Current root certificates. The client uses Python's own ssl, which reads the operating system's
+# store; some Windows stores reject the Let's Encrypt chain the sandbox uses, so the sample trusts
+# certifi's bundle instead (DATAOIL_CA overrides it). Keep it current: pip install --upgrade certifi
+certifi>=2024.7.4
