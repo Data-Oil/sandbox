@@ -122,3 +122,12 @@ In short:
 
 Data Oil itself is a commercial service; using it beyond the public sandbox needs a credential
 issued under the Data Oil customer agreement. The licence text governs where this summary is short.
+
+**What the sandbox does and doesn't do:** SQL, schema reads and keyword search across
+five languages work here. Semantic (vector) search and cited answers are switched off in
+the free sandbox, because they need GPU; they run on your own database.
+
+**Status:** the engine runs our own products in production. The public clients are new,
+the source is closed, and the team is small. Building something real? Apply for one of
+50 founding builder seats at https://sandbox.dataoil.tech
+Below that, show the hybrid query labelled "on your own database", next to a keyword query that runs in the sandbox as-is.
