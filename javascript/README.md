@@ -1,14 +1,14 @@
 # @dataoil/client (JavaScript and TypeScript) sample
 
-The Data Oil client for JavaScript and TypeScript, `@dataoil/client` 0.1.5: nothing but `fetch`, no
+The Data Oil client for JavaScript and TypeScript, `@dataoil/client` 0.1.7: nothing but `fetch`, no
 dependencies, Node 18 and later.
 
 ## Prerequisites
 
 - Node 18 or later.
-- `@dataoil/client` 0.1.5 from [npm](https://www.npmjs.com/package/@dataoil/client/v/0.1.5), which
+- `@dataoil/client` 0.1.7 from [npm](https://www.npmjs.com/package/@dataoil/client/v/0.1.7), which
   `package.json` pins and `npm install` fetches. In a project of your own:
-  `npm install @dataoil/client@0.1.5`.
+  `npm install @dataoil/client@0.1.7`.
 
 ```sh
 npm install

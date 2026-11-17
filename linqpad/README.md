@@ -1,6 +1,6 @@
 # DataOil.LINQPad
 
-`DataOil.LINQPad` 0.1.5 is a LINQPad 9 driver, not a library an application references, so there is
+`DataOil.LINQPad` 0.1.7 is a LINQPad 9 driver, not a library an application references, so there is
 no solution here to build: its samples ship inside the package, and LINQPad lists them under
 **Samples** once the driver is installed.
 
@@ -11,13 +11,13 @@ no solution here to build: its samples ship inside the package, and LINQPad list
 
 ## Installing it
 
-The driver is on [nuget.org](https://www.nuget.org/packages/DataOil.LINQPad/0.1.5), tagged
+The driver is on [nuget.org](https://www.nuget.org/packages/DataOil.LINQPad/0.1.7), tagged
 `linqpaddriver`, so LINQPad finds it there:
 
 1. In LINQPad 9: **Add Connection**, **View more drivers...**.
 2. Choose **Show all drivers**, search for **DataOil.LINQPad**, and install it. LINQPad fetches it
-   from nuget.org with what it depends on - `DataOil.EntityFrameworkCore` 0.1.4 and
-   `DataOil.Client` 0.2.2. The package carries the Data Oil Software Licence, and LINQPad asks you
+   from nuget.org with what it depends on - `DataOil.EntityFrameworkCore` 0.1.6 and
+   `DataOil.Client` 0.2.4. The package carries the Data Oil Software Licence, and LINQPad asks you
    to accept it.
 
 It needs LINQPad 9, because the provider is .NET 10. Close LINQPad before copying a driver into its

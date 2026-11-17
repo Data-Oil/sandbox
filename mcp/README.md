@@ -1,6 +1,6 @@
 # @dataoil/mcp sample
 
-The Data Oil Model Context Protocol server, `@dataoil/mcp` 0.1.5: four tools - `query`, `schema`,
+The Data Oil Model Context Protocol server, `@dataoil/mcp` 0.1.9: four tools - `query`, `schema`,
 `ask`, `ingest` - over one database, for any MCP host: a desktop assistant, an IDE, an agent
 framework. Nothing in the server decides who may see what; the engine does, by the credential the
 server is given.
@@ -11,12 +11,12 @@ the protocol on stdio - and calls its tools the way a model would.
 ## Prerequisites
 
 - Node 18 or later.
-- `@dataoil/mcp` 0.1.5 and `@dataoil/client` 0.1.5 from npm
-  ([mcp](https://www.npmjs.com/package/@dataoil/mcp/v/0.1.5),
-  [client](https://www.npmjs.com/package/@dataoil/client/v/0.1.5)), which `package.json` pins and
+- `@dataoil/mcp` 0.1.9 and `@dataoil/client` 0.1.7 from npm
+  ([mcp](https://www.npmjs.com/package/@dataoil/mcp/v/0.1.9),
+  [client](https://www.npmjs.com/package/@dataoil/client/v/0.1.7)), which `package.json` pins and
   `npm install` fetches; the server depends on the client. The server is also listed in the
   [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tech.dataoil/mcp) as `tech.dataoil/mcp`. In a project of
-  your own: `npm install @dataoil/mcp@0.1.5`, or `npx -y @dataoil/mcp@0.1.5` from a host's settings.
+  your own: `npm install @dataoil/mcp@0.1.9`, or `npx -y @dataoil/mcp@0.1.9` from a host's settings.
 
 ```sh
 npm install

@@ -1,14 +1,14 @@
 # DataOil.Client sample
 
-The Data Oil client for .NET, `DataOil.Client` 0.2.2: one statement over rows, vectors, keywords and
+The Data Oil client for .NET, `DataOil.Client` 0.2.4: one statement over rows, vectors, keywords and
 relationships, streamed as NDJSON, with the tenancy headers, typed errors and retries built in.
 
 ## Prerequisites
 
 - The .NET 10 SDK.
-- Nothing else: `DataOil.Client` 0.2.2 comes from [nuget.org](https://www.nuget.org/packages/DataOil.Client/0.2.2),
+- Nothing else: `DataOil.Client` 0.2.4 comes from [nuget.org](https://www.nuget.org/packages/DataOil.Client/0.2.4),
   the only source `nuget.config` here names, and `dotnet test` or `dotnet run` restores it. In a
-  project of your own: `dotnet add package DataOil.Client --version 0.2.2`.
+  project of your own: `dotnet add package DataOil.Client --version 0.2.4`.
 
 ## Run it
 

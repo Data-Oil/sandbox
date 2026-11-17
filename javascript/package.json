@@ -15,7 +15,7 @@
     "test": "npm run build && node --test"
   },
   "dependencies": {
-    "@dataoil/client": "0.1.5"
+    "@dataoil/client": "0.1.7"
   },
   "devDependencies": {
     "@types/node": "^18.19.0",

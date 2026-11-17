@@ -1,12 +1,12 @@
 # dataoil (Python) sample
 
-The Data Oil client for Python, `dataoil` 0.1.5: standard library only, Python 3.10 and later.
+The Data Oil client for Python, `dataoil` 0.1.7: standard library only, Python 3.10 and later.
 
 ## Prerequisites
 
 - Python 3.10 or later.
-- `dataoil` 0.1.5 from [PyPI](https://pypi.org/project/dataoil/0.1.5/), which `requirements.txt`
-  pins (`dataoil==0.1.5`). In a project of your own: `python -m pip install dataoil==0.1.5`.
+- `dataoil` 0.1.7 from [PyPI](https://pypi.org/project/dataoil/0.1.7/), which `requirements.txt`
+  pins (`dataoil==0.1.7`). In a project of your own: `python -m pip install dataoil==0.1.7`.
 
 ```sh
 python -m venv .venv

@@ -15,8 +15,8 @@
     "test": "npm run build && node --test"
   },
   "dependencies": {
-    "@dataoil/client": "0.1.5",
-    "@dataoil/mcp": "0.1.5",
+    "@dataoil/client": "0.1.7",
+    "@dataoil/mcp": "0.1.9",
     "@modelcontextprotocol/sdk": "^1.32.1"
   },
   "devDependencies": {

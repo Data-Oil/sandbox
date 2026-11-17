@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DataOil.Client" Version="0.2.2" />
+    <PackageReference Include="DataOil.Client" Version="0.2.4" />
   </ItemGroup>
 
   <ItemGroup>

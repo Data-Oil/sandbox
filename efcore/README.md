@@ -1,17 +1,17 @@
 # DataOil.EntityFrameworkCore sample
 
-The Entity Framework Core 10 provider for Data Oil, `DataOil.EntityFrameworkCore` 0.1.4: an ordinary
+The Entity Framework Core 10 provider for Data Oil, `DataOil.EntityFrameworkCore` 0.1.6: an ordinary
 strongly typed `DbContext`, checked against the database's schema at run time, LINQ translated into
 the engine's dialect, and the record's version as the concurrency token.
 
 ## Prerequisites
 
 - The .NET 10 SDK.
-- Nothing else: `DataOil.EntityFrameworkCore` 0.1.4 comes from
-  [nuget.org](https://www.nuget.org/packages/DataOil.EntityFrameworkCore/0.1.4), the only source
+- Nothing else: `DataOil.EntityFrameworkCore` 0.1.6 comes from
+  [nuget.org](https://www.nuget.org/packages/DataOil.EntityFrameworkCore/0.1.6), the only source
   `nuget.config` here names, and `dotnet test` or `dotnet run` restores it. The provider brings
-  `DataOil.Client` 0.2.2 and EF Core 10.0.13. In a project of your own:
-  `dotnet add package DataOil.EntityFrameworkCore --version 0.1.4`.
+  `DataOil.Client` 0.2.4 and EF Core 10.0.13. In a project of your own:
+  `dotnet add package DataOil.EntityFrameworkCore --version 0.1.6`.
 
 ## Run it
 

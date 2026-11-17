@@ -10,8 +10,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <!-- Brings DataOil.Client 0.2.2 and Entity Framework Core 10.0.13 with it. -->
-    <PackageReference Include="DataOil.EntityFrameworkCore" Version="0.1.4" />
+    <!-- Brings DataOil.Client 0.2.4 and Entity Framework Core 10.0.13 with it. -->
+    <PackageReference Include="DataOil.EntityFrameworkCore" Version="0.1.6" />
   </ItemGroup>
 
   <ItemGroup>

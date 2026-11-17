@@ -9,12 +9,12 @@ drops everything it made. Each has a dry run that needs no server and no credent
 
 | Folder | Package | Language | Build and test | Dry run |
 | --- | --- | --- | --- | --- |
-| [`dotnet-client`](dotnet-client/README.md) | `DataOil.Client` 0.2.2 | C#, .NET 10 | `dotnet test DataOil.Samples.Client.slnx` | `dotnet run --project src/DataOil.Samples.Client -- --dry-run` |
-| [`efcore`](efcore/README.md) | `DataOil.EntityFrameworkCore` 0.1.4 | C#, .NET 10 | `dotnet test DataOil.Samples.EntityFrameworkCore.slnx` | `dotnet run --project src/DataOil.Samples.EntityFrameworkCore -- --dry-run` |
-| [`python`](python/README.md) | `dataoil` 0.1.5 | Python 3.10+ | `python -m unittest` | `python sample.py --dry-run` |
-| [`javascript`](javascript/README.md) | `@dataoil/client` 0.1.5 | TypeScript, Node 18+ | `npm test` | `npm run dry-run` |
-| [`mcp`](mcp/README.md) | `@dataoil/mcp` 0.1.5 | TypeScript, Node 18+ | `npm test` | `npm run dry-run` |
-| [`linqpad`](linqpad/README.md) | `DataOil.LINQPad` 0.1.5 | LINQPad 9 | - | - |
+| [`dotnet-client`](dotnet-client/README.md) | `DataOil.Client` 0.2.4 | C#, .NET 10 | `dotnet test DataOil.Samples.Client.slnx` | `dotnet run --project src/DataOil.Samples.Client -- --dry-run` |
+| [`efcore`](efcore/README.md) | `DataOil.EntityFrameworkCore` 0.1.6 | C#, .NET 10 | `dotnet test DataOil.Samples.EntityFrameworkCore.slnx` | `dotnet run --project src/DataOil.Samples.EntityFrameworkCore -- --dry-run` |
+| [`python`](python/README.md) | `dataoil` 0.1.7 | Python 3.10+ | `python -m unittest` | `python sample.py --dry-run` |
+| [`javascript`](javascript/README.md) | `@dataoil/client` 0.1.7 | TypeScript, Node 18+ | `npm test` | `npm run dry-run` |
+| [`mcp`](mcp/README.md) | `@dataoil/mcp` 0.1.9 | TypeScript, Node 18+ | `npm test` | `npm run dry-run` |
+| [`linqpad`](linqpad/README.md) | `DataOil.LINQPad` 0.1.7 | LINQPad 9 | - | - |
 
 ## Before you build
 
@@ -23,16 +23,16 @@ version it names - there are no package files to copy:
 
 | Package | Registry | Install |
 | --- | --- | --- |
-| `DataOil.Client` 0.2.2 | [nuget.org](https://www.nuget.org/packages/DataOil.Client/0.2.2) | `dotnet add package DataOil.Client --version 0.2.2` |
-| `DataOil.EntityFrameworkCore` 0.1.4 | [nuget.org](https://www.nuget.org/packages/DataOil.EntityFrameworkCore/0.1.4) | `dotnet add package DataOil.EntityFrameworkCore --version 0.1.4` |
-| `DataOil.LINQPad` 0.1.5 | [nuget.org](https://www.nuget.org/packages/DataOil.LINQPad/0.1.5) | LINQPad 9: **Add Connection**, **View more drivers...** (see [`linqpad`](linqpad/README.md)) |
-| `dataoil` 0.1.5 | [PyPI](https://pypi.org/project/dataoil/0.1.5/) | `python -m pip install dataoil==0.1.5` |
-| `@dataoil/client` 0.1.5 | [npm](https://www.npmjs.com/package/@dataoil/client/v/0.1.5) | `npm install @dataoil/client@0.1.5` |
-| `@dataoil/mcp` 0.1.5 | [npm](https://www.npmjs.com/package/@dataoil/mcp/v/0.1.5), and the [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tech.dataoil/mcp) as `tech.dataoil/mcp` | `npm install @dataoil/mcp@0.1.5` |
+| `DataOil.Client` 0.2.4 | [nuget.org](https://www.nuget.org/packages/DataOil.Client/0.2.4) | `dotnet add package DataOil.Client --version 0.2.4` |
+| `DataOil.EntityFrameworkCore` 0.1.6 | [nuget.org](https://www.nuget.org/packages/DataOil.EntityFrameworkCore/0.1.6) | `dotnet add package DataOil.EntityFrameworkCore --version 0.1.6` |
+| `DataOil.LINQPad` 0.1.7 | [nuget.org](https://www.nuget.org/packages/DataOil.LINQPad/0.1.7) | LINQPad 9: **Add Connection**, **View more drivers...** (see [`linqpad`](linqpad/README.md)) |
+| `dataoil` 0.1.7 | [PyPI](https://pypi.org/project/dataoil/0.1.7/) | `python -m pip install dataoil==0.1.7` |
+| `@dataoil/client` 0.1.7 | [npm](https://www.npmjs.com/package/@dataoil/client/v/0.1.7) | `npm install @dataoil/client@0.1.7` |
+| `@dataoil/mcp` 0.1.9 | [npm](https://www.npmjs.com/package/@dataoil/mcp/v/0.1.9), and the [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=tech.dataoil/mcp) as `tech.dataoil/mcp` | `npm install @dataoil/mcp@0.1.9` |
 
 The .NET samples' `nuget.config` names nuget.org as their only source, the Node samples'
 `package-lock.json` resolves from `https://registry.npmjs.org`, and `python/requirements.txt` pins
-`dataoil==0.1.5`. So in each folder `dotnet test`, `npm install` or `pip install -r requirements.txt`
+`dataoil==0.1.7`. So in each folder `dotnet test`, `npm install` or `pip install -r requirements.txt`
 is all it takes.
 
 That is all the sandbox needs. For your own tenant you also need a credential: an API key (minted on
@@ -103,6 +103,12 @@ tenant like any other work on your data.
 missing variable is named); `2` the engine refused something it should not have, or the sandbox
 accepted a write - the message carries the engine's error code, its sentence and the correlation id
 your tenant's activity view is indexed by.
+
+## Built by coders, for builders
+
+Data Oil was built by coders and data experts who understand the challenges first-hand. We strongly
+support startups, entrepreneurs and vibe coders, and no project is too small or too big. Reach out and
+chat: info@dataoil.tech. We also offer founders' benefits; ask us about them.
 
 ## Licence
 
